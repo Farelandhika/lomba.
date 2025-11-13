@@ -5,7 +5,7 @@ const PLACES = [
     {id:2,name:'Taman Bantaran Madiun',category:'Alam',city:'Madiun',rating:4.4,image:'Bantaran.jpg',desc:'Ingin mencari tempat wisata yang buka 24 jam di Kota Madiun? Taman Bantaran Madiun bisa menjadi pilihan terbaik untuk bersantai bersama keluarga. Taman Bantaran Madiun, Wisata Kota 24 Jam dengan Fasilitas Lengkap dan Suasana Asri, cocok untuk menikmati senja pada sore hari.',tags:['padang','pedas','tradisional']},
     {id:3,name:'Air Terjun Kertoembo',category:'Alam',city:'Madiun',rating:4.5,image:'nongko ijo madiun.jpg',desc:'Tempat wisata ini menawarkan suasana alam yang sejuk dengan pohon pinus yang menjulang tinggi, serta berbagai spot foto menarik seperti rumah pohon dan ayunan.',tags:['keluarga','luar-ruangan']},
     {id:4,name:'Waduk Bening Widas',category:'Alam',city:'Madiun',rating:4.4,image:'Waduk bening widas.jpg',desc:'fasilitas seperti tempat pemancingan, tempat wisata kuliner, taman bermain untuk anak, hingga fasilitas penginapan yang bisa Anda sewa jika ingin menikmati pemandangan malam Waduk Bening Widas ini.',tags:['Alam','Waduk']},
-    {id:5,name:'pahlawan street center',category:'Rekreasi',city:'Madiun',rating:4.7,image:'jalan pahlawan.jpg',desc:'Tempat ini menghadirkan suasana terbuka dengan area pedestrian yang lebar, pepohonan rindang, serta penataan yang rapi dan estetik, membuat pengunjung betah berjalan kaki menikmati suasana kota, Tak hanya berfungsi sebagai ruang publik, PSC juga menjadi destinasi wisata yang menampilkan berbagai miniatur ikon dunia.',tags:['bakso']},
+    {id:5,name:'pahlawan street center',category:'Rekreasi',city:'Madiun',rating:4.7,image:'jalan pahlawan.jpg',desc:'Tempat ini menghadirkan suasana terbuka dengan area pedestrian yang lebar, pepohonan rindang, serta penataan yang rapi dan estetik, membuat pengunjung betah berjalan kaki menikmati suasana kota, Tak hanya berfungsi sebagai ruang publik, PSC juga menjadi destinasi wisata yang menampilkan berbagai miniatur ikon dunia.',tags:['estestik','nyaman']},
     {id:6,name:'Taman gulun',category:'Rekreasi',city:'Madiun',rating:4.5,image:'taman gulun.jpg',desc:'Memiliki fasilitas olahraga, taman bermain anak, tempat jajanan dan kuliner.',tags:['Alam','Waduk']},
     {id:7,name:'Alun Alun Madiun',category:'Rekreasi',city:'Madiun',rating:4.6,image:'Alun-Alun-Madiun.jpg',desc:'Memiliki fasilitas olahraga, spot foto yang menarik dan menyedikan jajanan dan kuliner yang khas.',tags:['Alam','Waduk']},
     {id:8,name:'Air Terjun Srambang',category:'Alam',city:'Ngawi',rating:4.5,image:'srambang.jpg',desc:'Fasilitas : area parkir, taman bermain anak, musholla, air terjun, tersedia aneka kuliner dan jajanan yang khas.',tags:['Wisata','Alam','Nyaman']},
@@ -154,4 +154,5 @@ const PLACES = [
   
   renderFilters();
   render();
+
   
