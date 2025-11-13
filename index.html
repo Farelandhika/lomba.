@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aplikasi Rekomendasi Tempat</title>
+
+    <!-- Hubungkan CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="app" role="application">
+    <header>
+        <div class="brand">
+            <div class="logo">RT</div>
+            <div>
+                <h1>Rekomendasi Tempat</h1>
+                <p class="lead">Temukan tempat wista menarik, di madiun dan ngawi</p>
+            </div>
+        </div>
+
+        <div class="controls">
+            <div class="search">
+                <input id="search" type="search" placeholder="Cari nama, kategori, kota..." />
+            </div>
+            <div id="favToggle" class="chip" role="button" tabindex="0">
+                Lihat Favorit
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <aside class="sidebar">
+            <div class="filters">
+                <div class="filter-group">
+                    <label>Filter kategori</label>
+                    <div class="categories" id="categoryList"></div>
+                </div>
+
+                <div class="filter-group">
+                    <label>Sortir</label>
+                    <select id="sort">
+                        <option value="rating">Rating (tinggi ke rendah)</option>
+                        <option value="rating_asc">Rating (rendah ke tinggi)</option>
+                        <option value="name">Nama (A–Z)</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label>Area</label>
+                    <div class="categories" id="cityList"></div>
+                </div>
+
+                <button id="clearFilters" class="btn">Reset</button>
+            </div>
+        </aside>
+
+        <section>
+            <div class="content-top">
+                <div id="resultCount">Menampilkan 0 tempat</div>
+                <div id="activeFilters" class="badge">Tidak ada filter aktif</div>
+            </div>
+
+            <div id="gridWrap">
+                <div class="grid" id="placeGrid"></div>
+                <div id="empty" class="empty" style="display:none;">
+                    Tidak ditemukan tempat yang cocok.
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>Built with ♥ — klik kartu untuk detail dan favorit.</footer>
+</div>
+
+<!-- Modal -->
+<div id="modalBackdrop" class="modal-backdrop" aria-hidden="true">
+    <div class="modal">
+        <button id="closeModal" class="btn">Tutup</button>
+        <img id="modalImage" class="hero" alt="Gambar tempat" />
+        <h2 id="modalTitle"></h2>
+        <div id="modalMeta" class="muted"></div>
+        <p id="modalDesc"></p>
+        <div id="modalTags" class="muted"></div>
+        
+    </div>
+</div>
+
+<!-- Hubungkan JavaScript -->
+<script src="script.js"></script>
+</body>
+</html>
