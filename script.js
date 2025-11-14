@@ -19,6 +19,8 @@ const PLACES = [
     {id:16,name:'Monumen Suryo',category:'Tempat Bersejarah',city:'Ngawi',rating:4.5,image:'suryo.jpg',desc:'Fasilitas : area parkir, spot foto yang menarik, adanya galeri sejarah indonesia, tersedia aneka kuliner dan jajanan yang khas.',tags:['Wisata','Sejarah','Asik']},
     {id:17,name:'Alun Alun Ngawi',category:'Rekreasi',city:'Ngawi',rating:4.5,image:'ngawi.jpg',desc:'Fasilitas : area parkir, spot foto yang menarik, tersedianya toilet, fasilitas untuk olahraga, taman bermain, tersedia aneka kuliner dan jajanan yang khas.',tags:['Wisata','Alun alun','Nyaman']},
     {id:18,name:'Taman Candi',category:'Rekreasi',city:'Ngawi',rating:4.5,image:'taman candi.jpg',desc:'Fasilitas : area parkir, spot foto yang menarik, suasana asri, tempat bersih, tersedia aneka kuliner dan jajanan yang khas.',tags:['Wisata','ngawi','Nyaman']},
+    {id:19,name:'Wisata Tawun',category:'Rekreasi',city:'Ngawi',rating:4.3,image:'tawun.jpg',desc:'Fasilitas : area parkir, spot foto yang menarik, suasana asri, tempat bersih, tersedia aneka kuliner dan jajanan yang khas, adanya kolam renang untuk anak anak dan dewasa.',tags:['Wisata','ngawi','Nyaman']},
+    {id:20,name:'Museum Trinil',category:'Tempat Bersejarah',city:'Ngawi',rating:4.4,image:'trinil.jpg',desc:'Fasilitas : area parkir, spot foto yang menarik, menyimpan galeri sejarah jaman purba, tempat bersih, tersedia aneka kuliner dan jajanan yang khas.',tags:['Wisata','sejarah','Nyaman']},
   ];
   
     let state = {
@@ -156,4 +158,5 @@ const PLACES = [
   render();
 
   
+
 
