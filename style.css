@@ -303,7 +303,7 @@
     gap: 6px;
     font-size: 14px;
     font-weight: 600;
-    color:  #ffffff;
+    color: #ffffff;
   }
   
   .filter-group select {
@@ -327,4 +327,5 @@
     box-shadow: 0 0 8px rgba(122,60,255,0.5);
   }
   
+
 
