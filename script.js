@@ -1,11 +1,11 @@
 // Data tempat (dummy)
 const PLACES = [
-   
   {id:1,name:'Wisata Alam Grape',
     category:'Alam',
     city:'Madiun',
     rating:4.3,
     image:'grape.jpg',
+    jam: "07.00-17.00 BUKA SETIAP HARI",
     desc:'Fasilitas : area parkir, taman bermain anak, musholla, MCK, aula pertemuan.',
     tags:['Wisata','Alam','Nyaman'],
     link:'https://maps.app.goo.gl/KPpq23VDGzt1aVMn9'
@@ -16,6 +16,7 @@ const PLACES = [
     city:'Madiun',
     rating:4.4,
     image:'Bantaran.jpg',
+    jam:"BUKA 24 JAM",
     desc:'Ingin mencari tempat wisata yang buka 24 jam di Kota Madiun? Taman Bantaran Madiun bisa menjadi pilihan terbaik untuk bersantai bersama keluarga. Taman Bantaran Madiun, Wisata Kota 24 Jam dengan Fasilitas Lengkap dan Suasana Asri, cocok untuk menikmati senja pada sore hari.',
     tags:['Wisata','Nyaman','Estestik'],
     link:'https://maps.app.goo.gl/mvCd4Kru7ZPLWvNS7'
@@ -27,6 +28,7 @@ const PLACES = [
     city:'Madiun',
     rating:4.5,
     image:'nongko ijo madiun.jpg',
+    jam:"09.00-15.00 BUKA SETIAP HARI",
     desc:'Tempat wisata ini menawarkan suasana alam yang sejuk dengan pohon pinus yang menjulang tinggi, serta berbagai spot foto menarik seperti rumah pohon dan ayunan.',
     tags:['keluarga','luar-ruangan'],
     link:'https://maps.app.goo.gl/hjpTq6RPu78nKvrA6'
@@ -37,6 +39,7 @@ const PLACES = [
     city:'Madiun',
     rating:4.4,
     image:'Waduk bening widas.jpg',
+    jam:"24 JAM",
     desc:'fasilitas seperti tempat pemancingan, tempat wisata kuliner, taman bermain untuk anak, hingga fasilitas penginapan yang bisa Anda sewa jika ingin menikmati pemandangan malam Waduk Bening Widas ini.',
     tags:['Alam','Waduk'],
     link:'https://maps.app.goo.gl/8FMktYGAiZrJ24mW6'
@@ -47,6 +50,7 @@ const PLACES = [
     city:'Madiun',
     rating:4.7,
     image:'jalan pahlawan.jpg',
+    jam:"24 JAM",
     desc:'Tempat ini menghadirkan suasana terbuka dengan area pedestrian yang lebar, pepohonan rindang, serta penataan yang rapi dan estetik, membuat pengunjung betah berjalan kaki menikmati suasana kota, Tak hanya berfungsi sebagai ruang publik, PSC juga menjadi destinasi wisata yang menampilkan berbagai miniatur ikon dunia.',
     tags:['estestik','nyaman'],
     link:'https://maps.app.goo.gl/9vHKpFFHb5DF4we16'
@@ -57,6 +61,7 @@ const PLACES = [
     city:'Madiun',
     rating:4.5,
     image:'taman gulun.jpg',
+    jam:"24 JAM",
     desc:'Memiliki fasilitas olahraga, taman bermain anak, tempat jajanan dan kuliner.',
     tags:['Olahraga','Kuliner'],
     link:'https://maps.app.goo.gl/5MSrzCSCcqjJrGnH8'
@@ -67,15 +72,18 @@ const PLACES = [
     city:'Madiun',
     rating:4.6,
     image:'Alun-Alun-Madiun.jpg',
+    jam:"24 JAM",
     desc:'Memiliki fasilitas olahraga, spot foto yang menarik dan menyedikan jajanan dan kuliner yang khas.',
     tags:['Wisata','Asixx'],
     link:'https://maps.app.goo.gl/m72PGC6juABogJSYA'
   },
+  
   {id:8,name:'Air Terjun Srambang',
     category:'Alam',
     city:'Ngawi',
     rating:4.5,
     image:'srambang.jpg',
+    jam:"08.00-15.00 BUKA SETIAP HARI",
     desc:'Fasilitas : area parkir, taman bermain anak, musholla, air terjun, tersedia aneka kuliner dan jajanan yang khas.',
     tags:['Wisata','Alam','Nyaman'],
     link:'https://maps.app.goo.gl/2x2FSyy9cadfrj657'
@@ -86,6 +94,7 @@ const PLACES = [
     city:'Ngawi',
     rating:4.5,
     image:'kebun-teh-jamus-ngawi-jawa-timur.jpg',
+    jam:"08.00-17.00 BUKA SETIAP HARI",
     desc:'Tidak hanya hadir sebagai wisata kebun teh, perkebunan satu ini punya banyak fasilitas dan wahana, contohnya: Berbagai spot foto alam, Arena offroad bagi kamu pecinta medan berat, Flying fox, Arena camping, Kolam renang dan cafe, Musala dan toilet umum, Lahan parkir dan lain lain.',
     tags:['Wisata','Alam','Nyaman'],
     link:'https://maps.app.goo.gl/dvJStjRZVdfstV1L7'
@@ -96,6 +105,7 @@ const PLACES = [
     city:'Ngawi',
     rating:4.5,
     image:'sumber nogo.jpg',
+    jam:"08.00-16.00 BUKA SETIAP HARI",
     desc:'Fasilitas : area parkir, spot foto yang menarik, tersedianya pohon pinus yang rindang, tersedia aneka kuliner dan jajanan yang khas.',
     tags:['Wisata','Alam','Nyaman'],
     link:'https://maps.app.goo.gl/SYJGTKSQUygpJXwT7'
@@ -106,6 +116,7 @@ const PLACES = [
     city:'Ngawi',
     rating:4.6,
     image:'sumber koso.jpg',
+    jam:"08.00-15.00 BUKA SETIAP HARI",
     desc:'Fasilitas : area parkir, spot foto yang menarik, suasana yang masih asri, tersedia aneka kuliner dan jajanan yang khas.',
     tags:['Wisata','Alam','Nyaman'],
     link:'https://maps.app.goo.gl/T2UJUtFrjwvhSvn5A'
@@ -116,6 +127,7 @@ const PLACES = [
     city:'Ngawi',
     rating:4.5,
     image:'sengon.jpg',
+    jam:"08.00-17.00 BUKA SETIAP HARI",
     desc:'Fasilitas : area parkir, spot foto yang menarik, suasana yang asri, tempat camp, kolam renang dan tempat bermain untuk anak anak, tersedia aneka kuliner dan jajanan yang khas.',
     tags:['Wisata','Rekreasi','Nyaman'],
     link:'https://maps.app.goo.gl/w4mxipc5rNE4Asx76'
@@ -126,6 +138,7 @@ const PLACES = [
     city:'Ngawi',
     rating:4.3,
     image:'atp.jpg',
+    jam:"08.00-15.00 BUKA SETIAP HARI",
     desc:'Fasilitas : area parkir, spot foto yang menarik, air terjun yang besih, suasana asri, tersedia aneka kuliner dan jajanan yang khas.',
     tags:['Wisata','Alam','Nyaman'],
     link:'https://maps.app.goo.gl/J3ymzazScta7xRCz5'
@@ -136,6 +149,7 @@ const PLACES = [
     city:'Ngawi',
     rating:4.5,
     image:'Benteng-Van-Den-Bosch.jpg',
+    jam:"08.00-17.00 BUKA SETIAP HARI",
     desc:'Fasilitas : area parkir, spot foto yang menarik, tempat bermain, galeri sejarah indonesia, tersedia aneka kuliner dan jajanan yang khas.',
     tags:['Wisata','sejarah'],
     link:'https://maps.app.goo.gl/nuPjNHt3SPyfUgN27'
@@ -146,6 +160,7 @@ const PLACES = [
     city:'Madiun',
     rating:4.6,
     image:'monumen.jpg',
+    jam:"06.00-21.00 BUKA SETIAP HARI",
     desc:'Fasilitas : area parkir, spot foto yang menarik, galeri sejarah PKI, dan tersedia aneka kuliner dan jajanan yang khas.',
     tags:['Wisata','Sejarah','Nyaman'],
     link:'https://maps.app.goo.gl/NS941651iNvheMbdA'
@@ -156,6 +171,7 @@ const PLACES = [
     city:'Ngawi',
     rating:4.4,
     image:'suryo.jpg',
+    jam:"07.00-21.00 BUKA SETIAP HARI",
     desc:'Fasilitas : area parkir, spot foto yang menarik, adanya galeri sejarah indonesia, tersedia aneka kuliner dan jajanan yang khas.',
     tags:['Wisata','Sejarah','Asik'],
     link:'https://maps.app.goo.gl/biAeA6iqFkAQHUkM8'
@@ -166,6 +182,7 @@ const PLACES = [
     city:'Ngawi',
     rating:4.4,
     image:'ngawi.jpg',
+    jam:"24 JAM BUKA SETIAP HARI",
     desc:'Fasilitas : area parkir, spot foto yang menarik, tersedianya toilet, fasilitas untuk olahraga, taman bermain, tersedia aneka kuliner dan jajanan yang khas.',
     tags:['Wisata','Alun alun','Nyaman'],
     link:'https://maps.app.goo.gl/xBrRt7ddGQKFJ3eQ6'
@@ -176,6 +193,7 @@ const PLACES = [
     city:'Ngawi',
     rating:4.3,
     image:'taman candi.jpg',
+    jam:"06.00-21.00 BUKA SETIAP HARI",
     desc:'Fasilitas : area parkir, spot foto yang menarik, suasana asri, tempat bersih, tersedia aneka kuliner dan jajanan yang khas.',
     tags:['Wisata','ngawi','Nyaman'],
     link:'https://maps.app.goo.gl/DNEVEunqxGgKHN1V9'
@@ -186,6 +204,7 @@ const PLACES = [
     city:'Ngawi',
     rating:4.2,
     image:'tawun.jpg',
+    jam:"07.00-17.00 BUKA SETIAP HARI",
     desc:'Fasilitas : area parkir, spot foto yang menarik, suasana asri, tempat bersih, tersedia aneka kuliner dan jajanan yang khas, adanya kolam renang untuk anak anak dan dewasa.',
     tags:['Wisata','ngawi','Nyaman'],
     link:'https://maps.app.goo.gl/r2SNfZyoxbsQafay7'
@@ -196,10 +215,11 @@ const PLACES = [
     city:'Ngawi',
     rating:4.4,
     image:'trinil.jpg',
+    jam:"08.00-16.00 TUTUP HARI SENIN",
     desc:'Fasilitas : area parkir, spot foto yang menarik, menyimpan galeri sejarah jaman purba, tempat bersih, tersedia aneka kuliner dan jajanan yang khas.',
     tags:['Wisata','sejarah','Nyaman'],
     link:'https://maps.app.goo.gl/NCcE67zkn3faNRQbA'
-  },
+  }
 ];
 
   let state = {
@@ -224,6 +244,7 @@ const els = {
   modalTitle: document.getElementById("modalTitle"),
   modalImage: document.getElementById("modalImage"),
   modalMeta: document.getElementById("modalMeta"),
+  modalJam: document.getElementById("modalJam"),
   modalDesc: document.getElementById("modalDesc"),
   modalTags: document.getElementById("modalTags"),
   modalMapBtn: document.getElementById("modalMapBtn"), // 🔹 TAMBAHKAN INI
@@ -357,6 +378,7 @@ function openModal(p) {
   els.modalTitle.textContent = p.name;
   els.modalImage.src = p.image;
   els.modalMeta.textContent = `${p.category} • ${p.city} • ★ ${p.rating}`;
+  els.modalJam.textContent = p.jam ? `Jam buka: ${p.jam}` : "Jam buka: -"; //jam buka
   els.modalDesc.textContent = p.desc;
   els.modalTags.textContent = "#" + p.tags.join(" #");
 
