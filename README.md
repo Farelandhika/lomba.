@@ -1,1 +1,1 @@
-# Hello guys this is my project but lomba and learning AI thank for reading :)
+# Hello guys this is my project for lomba AREK AI and learning AI thank for reading :)
