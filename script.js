@@ -45,7 +45,7 @@ const PLACES = [
     link:'https://maps.app.goo.gl/8FMktYGAiZrJ24mW6'
 },
 
-  {id:5,name:'pahlawan street center',
+  {id:5,name:'Pahlawan Street Center',
     category:'Rekreasi',
     city:'Madiun',
     rating:4.7,
@@ -415,3 +415,4 @@ els.clearFilters.onclick = () => {
 
 renderFilters();
 render();
+
